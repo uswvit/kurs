@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Poppins;
+  src: local(Poppins-Regular), local(Poppins-Regular), url("Poppins-Regular.28e177dc.woff2") format("woff2"), url("Poppins-Regular.488d3dc2.woff") format("woff"), url("Poppins-Regular.5c867268.eot") format("eot"), url("Poppins-Regular.0d3e9280.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SourceSansPro;
+  src: local(SourceSansPro Regular), local(SourceSansPro Regular), url("SourceSansPro-Regular.e39c9eff.woff2") format("woff2"), url("SourceSansPro-Regular.5237bd80.woff") format("woff"), url("SourceSansPro-Regular.31a10689.eot") format("eot"), url("SourceSansPro-Regular.e371f573.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=index.5057846b.css.map */

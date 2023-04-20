@@ -1,0 +1,161 @@
+@mixin button {
+    width: 170px;
+    height: 48px;
+    border-radius: 24px;
+    font-family: $font2;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 48px;
+    text-align: center;
+    a {
+        text-decoration: none;
+    }
+}
+
+@mixin card {
+    width: 370px;
+    height: 224px;
+    background:$color1;
+    box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
+    border-radius: 3px;
+    margin: 32px 30px 0 0;
+        img {
+            margin: 0 auto;
+            display: block;
+            padding:40px 0 11px 0;
+        }
+        h4 {
+        font-family: $font1;
+        color: $color2;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        }
+        .text-card {
+            width: 322px;
+            height: 50px;
+            font-family: $font2;
+            color: $color2;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            margin: 0 auto;
+            text-align: center;
+            opacity: 0.5;
+            padding-top: 9px;
+        }
+}
+
+@mixin description {
+        font-family: $font2;
+        color: $color2;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+}
+
+@mixin card2 {
+    width: 270px;
+    height: 160px;
+    margin: 32px 30px 0 0;
+        img {
+            padding:32px 0 7px 0;
+        }
+        h4 {
+            font-family: $font1;
+            color: $color2;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+        }
+        .text-card {
+            width: 270px;
+            font-family: $font2;
+            color: $color2;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            opacity: 0.5;
+        }
+}
+
+@mixin card-price {
+    width: 370px;
+    height: 416px;
+    box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
+    border-radius: 3px;
+    background-color: #fff;
+    &:hover {
+        background-color: #C86DD7;
+        h4,h1,span {
+            color: #fff;
+        }
+    }
+    margin-top: 48px;
+    h4 {
+        font-family: $font1;
+        color: $color2;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        padding-top: 53px;
+    }
+    h1 {
+        text-align: center;
+        padding-top: 7px;
+        padding-bottom: 12px;
+        font-family: $font1;
+        color: $color2;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 72px;
+    }
+    span {
+        padding: 12px 0 0 116px;
+        display: inline-block;
+        font-family: $font2;
+        color: $color2;
+        opacity: 0.5;
+    }
+}
+
+@mixin testimonial-card {
+    width:570px;
+    height:368px;
+    box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
+    border-radius: 3px;
+    background-color: #fff;
+    &:hover {
+        background-color: #C86DD7;
+        .experience, .client-name {
+            color: #fff;
+        }
+    }
+    img {
+        margin:0 auto;
+        display: block;
+        padding-top: 48px;
+    }
+    .experience {
+        width:506px;
+        padding-top: 18px;
+        margin: 0 auto;
+        font-family: $font2;
+        color: $color2;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        opacity: 0.5;
+        text-align: center;
+    }
+    .client-name {
+        font-family: $font1;
+        color: $color2;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+    }
+}
